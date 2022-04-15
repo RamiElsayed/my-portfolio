@@ -1,0 +1,40 @@
+:root {
+  --page-color: rgb(92, 133, 116);
+  --header-font-color: rgb(207, 222, 95);
+}
+* {
+  box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+}
+body {
+  margin: 0;
+  background-color: var(--page-color);
+  font-family: sans-serif;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header img {
+    width: 20rem;
+}
+.name-nave-container {
+  margin-right: 8rem;
+}
+.name-nave-container h1 {
+  font-size: 3.5rem;
+  color: var(--header-font-color);
+  margin-top: 0;
+}
+.name-nave-container nav {
+  font-size: 2.5rem;
+  display: flex;
+}
+.nav-link {
+  text-decoration: none;
+  margin-left: 3rem;
+  color: var(--header-font-color);
+}
