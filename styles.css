@@ -1,7 +1,8 @@
 :root {
   --page-color: #efeff0;
   --main-font-color: rgb(231, 234, 240);
-  --header-footer-background: Rgb(27,46,61);
+  --header-footer-background: Rgb(27, 46, 61);
+  --title-background-color: Rgb(0,0,0);
 }
 * {
   box-sizing: border-box;
@@ -20,7 +21,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  height: 14vh;
   background-color: var(--header-footer-background);
 }
 .header img {
@@ -53,7 +53,7 @@ body {
 .banner {
   background-image: url("data:image/jpeg;base64,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");
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   height: 10vh;
   font-size: 1.6rem;
   display: flex;
@@ -67,13 +67,13 @@ body {
   justify-content: space-around;
   align-items: center;
   margin-top: 5rem;
-  height: 20vh;
 }
 .about-me h2 {
   text-align: right;
   width: 15%;
+  font-size: 3.5rem;
 }
-.about-me h2, p {
+.about-me p {
   font-size: 2.3rem;
 }
 #border1 {
@@ -83,38 +83,105 @@ body {
 .about-me p {
   width: 60%;
 }
-#border1 {
-  border-right: 0.5rem solid rgb(0, 0, 0);
-  height: 13rem;
-}
-
 .work {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   margin-top: 5rem;
 }
 .work h2 {
   text-align: right;
-  font-size: 2.3rem;
+  font-size: 5rem;
   width: 15%;
 }
 #border2 {
   border-right: 0.5rem solid rgb(0, 0, 0);
-  height: 55rem;
+  height: 60rem;
 }
-
-.work a {
+.project1-container {
+  position: relative;
   width: 60%;
+  color: var(--page-color);
+  transition: all .2s ease-in-out; 
+}
+.work a {
   object-fit: none;
 }
-.work-image {
+.project1-image {
   width: 100%;
-  border: 1rem solid Rgb(27,46,61);
+  height: 100%;
+  border: 0.6rem solid Rgb(27, 46, 61);
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+}
+.project1-container:hover {
+  transform: scale(1.1);
+}
+.title1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--title-background-color);
+}
+.title1 p {
+  font-size: 1.5rem;
+}
+.row {
+  display: flex;
+  margin: 3rem 7.9rem 3rem 7.9rem;
+
+}
+.link-container {
+  position: relative;
+  color: var(--page-color);
+  display: flex;
+  justify-content: flex-end;
+  transition: all .2s ease-in-out; 
+}
+.link-container:hover {
+  transform: scale(1.1);
+}
+.project-link {
+  width: 95%;
+}
+.row img {
+  height: 100%;
+  width: 52%;
+  padding: 0.3rem;
+  border: 0.6rem solid Rgb(27, 46, 61);
+  border-radius: 0.5rem;
+  float: right;
+}
+
+.title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--title-background-color);
   border-radius: 0.5rem;
 }
+.title p {
+  font-size: 1.5rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  width: 100%;
+  background-color: var(--header-footer-background);
+  color: var(--page-color);
+  font-size: 2rem;
+  color: var(--main-font-color);
+}
+.footer a {
+  color: var(--page-color);
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 600px) {
   html {
     font-size: 8px;
@@ -125,19 +192,24 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .image-container {
+    height: 100%;
+  }
   .header img {
     width: 100%;
   }
+  #header-img2 {
+    display: none;
+  }
   .name-nav-container h1 {
-    height: 18%;
+    height: 10%;
   }
   .name-nav-container nav {
     display: flex;
     flex-direction: column;
+    margin: 1rem;
   }
-  .banner {
-    margin-top: 58.1rem
-  }
+  
   .about-me {
     display: flex;
     flex-direction: column;
@@ -147,11 +219,41 @@ body {
     text-align: center;
   }
   #border1 {
-    border-right: 0 none;
-    height: 0;
+    display: none;
   }
   .about-me p {
     width: 95%;
+  }
+  .work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 0;
+  }
+  .project1-container {
+    width: 90%;
+  }
+  .title1 p, .title p{
+    font-size: 1.2rem;
+  }
+  #border2 {
+    display: none;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .link-container {
+    margin: 1rem;
+  }
+  .project-link{
+    width: 100%;
+  }
+  .row img {
+    width: 100%;
   }
   
 }

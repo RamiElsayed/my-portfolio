@@ -10,7 +10,7 @@
   <body>
     <header>
       <div class="header">
-        <div>
+        <div class="image-container">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUKPwfmBzNaNCyCfg2ltHDVeNRfMDO1eYAkA&usqp=CAU"
             alt="my avatar"
@@ -26,15 +26,13 @@
               <a class="nav-link" href="#work">Work</a>
             </div>
             <div>
-              <a class="nav-link" href="#">Contacts</a>
-            </div>
-            <div>
-              <a class="nav-link" href="#">Resume</a>
+              <a class="nav-link" href="#contacts">Contacts</a>
             </div>
           </nav>
         </div>
-        <div>
+        <div class="image-container">
           <img
+            id="header-img2"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUKPwfmBzNaNCyCfg2ltHDVeNRfMDO1eYAkA&usqp=CAU"
             alt="my avatar"
           />
@@ -45,7 +43,7 @@
       <section class="banner">
         <h2>Full Stack Web Developer</h2>
       </section>
-      <section id="#about-me" class="about-me">
+      <section id="about-me" class="about-me">
         <h2>About Me</h2>
         <div id="border1"></div>
         <p>
@@ -54,23 +52,62 @@
           trying to learn new things.
         </p>
       </section>
-      <section class="work">
-        <h2>Work</h2>
-        <div id="border2"></div>
-        <a
-          href="https://ramielsayed.github.io/week2-Mini-Project/"
-          target="_blank"
-        >
-          <img class="work-image" src="./images/ week2 mini project.jpg" />
-        </a>
-        <a href="https://ramielsayed.github.io/Week1-html/" target="_blank">
-          <img src="./images/Screenshot week1 homework.jpg" />
-        </a>
-        <a href="https://ramielsayed.github.io/Week1-Mini-Project/" target="_blank">
-          <img src="./images/Screenshot week1 homework.jpg" />
-        </a>
+      <section id="work">
+        <div class="work">
+          <h2>Work</h2>
+          <div id="border2"></div>
+          <div class="project1-container">
+            <a
+              href="https://ramielsayed.github.io/week2-Mini-Project/"
+              target="_blank"
+              alt="Main project from week2 2"
+            >
+              <img
+                alt="week2 mini prject css"
+                class="project1-image"
+                src="./images/Screenshot week2 mini project.jpg"
+              />
+            </a>
+            <div class="title1"><p>Main Project</p></div>
+          </div>
+        </div>
+        <section class="row">
+          <div class="link-container">
+            <div class="project-link">
+              <a
+                href="https://ramielsayed.github.io/Week1-html/"
+                target="_blank"
+              >
+                <img
+                  src="./images/Screenshot week1 homework.jpg"
+                  alt="html homework week1"
+                />
+              </a>
+            </div>
+            <div class="title"><p>Project 2</p></div>
+          </div>
+          <div class="link-container">
+            <div class="project-link">
+              <a
+                href="https://ramielsayed.github.io/Week1-Mini-Project/"
+                target="_blank"
+              >
+                <img
+                  src="./images/Screenshot week1 Mini Project.jpg"
+                  alt="My first project of the class"
+                />
+              </a>
+            </div>
+            <div class="title"><p>Project 3</p></div>
+          </div>
+        </section>
       </section>
     </main>
-    <footer>Looking forward to work with you</footer>
+    <footer class="footer">
+      <div id="contacts">
+        <a href="mailto:ramybadr64@gmail.com">Email: ramybadr@gmail.com</a>
+      </div>
+      <div>Looking forward to work with you</div>
+    </footer>
   </body>
 </html>
