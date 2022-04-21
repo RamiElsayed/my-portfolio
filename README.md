@@ -1,4 +1,4 @@
-# week2-homework-css
+# my-portfolio
 personal portfolio- fixing flaws within my html structure and improving my semantics plus using advanced css.
 tried not to use absolute positions a lot.
 used minimal code from other projects.
