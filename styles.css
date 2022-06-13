@@ -43,7 +43,7 @@ header {
   height: 15rem;
 }
 .projects {
-  background-color: var( --orange-web);
+  background-color: var(--oxford-blue);
   color: var(--white);
 }
 #border2 {
