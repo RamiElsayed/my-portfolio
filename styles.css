@@ -1,4 +1,57 @@
 :root {
+  --black: #000000ff;
+  --oxford-blue: #14213dff;
+  --orange-web: #fca311ff;
+  --platinum: #e5e5e5ff;
+  --white: #ffffffff;
+}
+html {
+  font-size: 10px;
+}
+header {
+  --bs-gutter-x: 0;
+  background-color: var(--black);
+  color: var(--white);
+} 
+.header-title {
+  font-size: 5rem;
+  letter-spacing: 0.5rem;
+}
+.header-links {
+  font-size: 2rem;
+}
+.p-2 {
+  padding: 0!important;
+}
+.my-pic {
+  width: 16rem; 
+  height: 15rem;
+}
+.banner {
+  background-color: var(--oxford-blue);
+  color: var(--white);
+  letter-spacing: 0.5rem;
+}
+.banner-title {
+  font-size: 3rem;
+}
+#border1 {
+  border-right: 0.5rem solid rgb(0, 0, 0);
+  height: 15rem;
+}
+.projects {
+  background-color: var(--platinum)
+}
+#border2 {
+  border-right: 0.5rem solid rgb(0, 0, 0);
+  height: 60rem;
+}
+@media only screen and (max-width: 1000px) {
+  #border1 {
+    display: none;
+  }
+}
+/* :root {
   --page-color: #efeff0;
   --main-font-color: rgb(231, 234, 240);
   --header-footer-background: Rgb(27, 46, 61);
@@ -8,9 +61,7 @@
   box-sizing: border-box;
   text-transform: capitalize;
 }
-html {
-  font-size: 10px;
-}
+
 body {
   margin: 0;
   background-color: var(--page-color);
@@ -76,10 +127,7 @@ body {
 .about-me p {
   font-size: 2.3rem;
 }
-#border1 {
-  border-right: 0.5rem solid rgb(0, 0, 0);
-  height: 15rem;
-}
+
 .about-me p {
   width: 60%;
 }
@@ -95,10 +143,7 @@ body {
   font-size: 5rem;
   width: 15%;
 }
-#border2 {
-  border-right: 0.5rem solid rgb(0, 0, 0);
-  height: 60rem;
-}
+
 .project1-container {
   position: relative;
   width: 60%;
@@ -182,7 +227,7 @@ body {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 600px) {
+ {
   html {
     font-size: 8px;
     height: 100%;
@@ -218,9 +263,7 @@ body {
     width: 100%;
     text-align: center;
   }
-  #border1 {
-    display: none;
-  }
+  
   .about-me p {
     width: 95%;
   }
@@ -256,4 +299,4 @@ body {
     width: 100%;
   }
   
-}
+} */
