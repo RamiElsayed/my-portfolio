@@ -43,8 +43,8 @@ header {
   height: 15rem;
 }
 .projects {
-  background-color: var(--pale-silver);
-  color: var(--black);
+  background-color: var( --orange-web);
+  color: var(--white);
 }
 #border2 {
   border-right: 0.5rem solid rgb(0, 0, 0);
