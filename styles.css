@@ -47,7 +47,7 @@ header {
   color: var(--white);
 }
 #border2 {
-  border-right: 0.5rem solid rgb(0, 0, 0);
+  border-right: 0.5rem solid var(--white);
   height: 60rem;
 }
 .image-size{
