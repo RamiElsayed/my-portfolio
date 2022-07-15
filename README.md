@@ -1,8 +1,14 @@
-# my-portfolio
-personal portfolio- fixing flaws within my html structure and improving my semantics plus using advanced css.
-tried not to use absolute positions a lot.
-used minimal code from other projects.
-made sure the page grid is lined up properly no odd margins or paddings
+# My Portfolio
+![Github license](https://img.shields.io/badge/MIT-License-blue)
+
+## Description
+
+- You can find my initial projects I worked on this page using JavaScript, HTML and CSS.
+- You can find my contact links on the bottom of the page including my GitHub.
+- I am illustrating through my work the ability of solving problems and using good coding practices keeping my code clean following the OOP concepts.
+- Understanding the issues and finding the best tools
+
+
+
 ![my portfolio](https://ramielsayed.github.io/my-portfolio/)
-![my-portfolio-screenshot](./images/portfolio-1.jpg)
 ![my-portfolio-screenshot](./images/portfolio-2.jpg)
