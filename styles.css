@@ -10,7 +10,6 @@
 html {
   font-size: 10px;
 }
-
 header {
   --bs-gutter-x: 0;
   background-color: var(--black);
@@ -45,12 +44,13 @@ header {
 .projects {
   background-color: var(--oxford-blue);
   color: var(--white);
+  overflow: auto;
 }
 #border2 {
   border-right: 0.5rem solid var(--white);
   height: 60rem;
 }
-.image-size{
+.image-size {
   height: 25rem;
   width: 45rem;
 }
@@ -58,7 +58,8 @@ footer {
   --bs-gutter-x: 0;
   background-color: var(--black);
   color: var(--white);
-  height: 10vh
+  height: 10vh;
+  overflow: auto;
 }
 .project1-img:hover {
   transform: scale(1.05);
@@ -73,5 +74,7 @@ footer {
   #border2 {
     display: none;
   }
+  footer {
+    height: 100%;
+  }
 }
-
