@@ -62,10 +62,10 @@ footer {
   overflow: auto;
 }
 .project1-img:hover {
-  transform: scale(1.05);
+  transform: scale(1.01);
 }
 .projects-img:hover {
-  transform: scale(1.1);
+  transform: scale(1.02);
 }
 @media only screen and (max-width: 1000px) {
   #border1 {
