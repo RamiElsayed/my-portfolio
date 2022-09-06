@@ -39,7 +39,7 @@ header {
 }
 #border1 {
   border-right: 0.5rem solid rgb(0, 0, 0);
-  height: 15rem;
+  height: 30rem;
 }
 .projects {
   background-color: var(--oxford-blue);
