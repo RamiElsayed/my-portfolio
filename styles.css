@@ -6,9 +6,12 @@
   --platinum: #e5e5e5ff;
   --white: #ffffffff;
 }
-
+body {
+  overflow: auto;
+}
 html {
   font-size: 10px;
+  box-sizing: border-box;
 }
 header {
   --bs-gutter-x: 0;
@@ -39,7 +42,7 @@ header {
 }
 #border1 {
   border-right: 0.5rem solid rgb(0, 0, 0);
-  height: 30rem;
+  height: auto;
 }
 .projects {
   background-color: var(--oxford-blue);
